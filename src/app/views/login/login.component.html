@@ -1,0 +1,43 @@
+<mat-grid-list cols="1" rowHeight="300">
+  <mat-grid-tile [colspan]="1" [rowspan]="1">
+    <mat-card>
+      <mat-card-title>
+        <span>Inicio de sesión</span>
+      </mat-card-title>
+      <mat-card-content>
+        <form>
+          <mat-form-field>
+            <input matInput placeholder="Correo Eléctronico">
+            <mat-hint>
+              <mat-error>
+
+              </mat-error>
+            </mat-hint>
+          </mat-form-field>
+          <br>
+          <mat-form-field>
+              <input matInput placeholder="Contraseña">
+              <mat-hint>
+                <mat-error>
+  
+                </mat-error>
+              </mat-hint>
+            </mat-form-field>
+            <br>
+            <button mat-raised-button color="primary" type="submit">
+              Iniciar Sesión
+            </button>
+            <button mat-raised-button color="warn" type="submit">
+                Cancelar
+              </button>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+       
+
+
+
+
+

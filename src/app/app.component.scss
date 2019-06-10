@@ -1,0 +1,51 @@
+/*
+    Variables de colores
+*/
+$secondary-color: #424242;
+
+/*
+
+implementación de colores
+*/
+body {
+    background: $secondary-color !important;
+}
+
+/*
+Tamaños 
+*/
+.size-logo {
+    height: 30px;
+    width: 100px;
+}
+.max-height{
+    max-height: 100vh;
+}
+/* 
+    flexBox
+*/
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex-flow: column wrap;
+}
+
+.row {
+    flex-flow: row wrap;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    flex-grow: 1;
+}
+
+.item-center{
+    align-self: center;
+}
